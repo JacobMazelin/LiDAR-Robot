@@ -1,6 +1,6 @@
 import lgpio
-from Constants import Constants
-from Motor import Motor
+from constants import Constants
+from motor import Motor
 import time
 
 class DriveBase:

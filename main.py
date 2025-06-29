@@ -1,8 +1,8 @@
-from DriveBase import DriveBase
-from Teleop import get_key
+from drivebase import DriveBase
+from teleop import get_key
 import time
 
-def Main():
+def main():
     robot = DriveBase()
 
     print("WASD to drive, Q to quit, E to square")
@@ -29,4 +29,4 @@ def Main():
         robot.stop()
 
 if __name__ == "__main__":
-    Main()
+    main()

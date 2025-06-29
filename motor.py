@@ -1,6 +1,6 @@
 import lgpio
 import time
-from Constants import Constants
+from constants import Constants
 
 class Motor:
     def __init__(self, pwm_pin, in1, in2, gpio_handle):
